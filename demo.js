@@ -10,7 +10,7 @@
 
 // STRINGS - CONCATENATION & INTERPOLATION
 
-// Try ths following code in https://jsbin.com/?js,console
+// Try the following code in https://jsbin.com/?js,console
 
 const firstString = "Hello";
 const secondString = "World";
@@ -23,7 +23,7 @@ console.log(fullString);
 
 // CONDITIONS, LOGICAL OPERATORS, IF-ELSE CONDITIONS
 
-// Try ths following code in https://jsbin.com/?js,console
+// Try the following code in https://jsbin.com/?js,console
 
 const word = "Benjamin";
 
@@ -44,7 +44,7 @@ if (word[0] === 'B') {
 
 // LOOPS & ITERATIONS WITH ARRAYS
 
-// Try ths following code in https://jsbin.com/?js,console
+// Try the following code in https://jsbin.com/?js,console
 
 const names = ['Saj', 'Jack', 'Jon', 'Jane', 'Ben', 'Bob']
 
@@ -71,7 +71,7 @@ names.forEach((name) => {
 
 // FUNCTIONS
 
-// Try ths following code in https://jsbin.com/?js,console
+// Try the following code in https://jsbin.com/?js,console
 
 const myName = 'bEnJaMIN';
 
