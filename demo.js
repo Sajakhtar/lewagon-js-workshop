@@ -42,11 +42,11 @@ const names = ['Saj', 'Jack', 'Jon', 'Jane', 'Ben', 'Bob']
 
 console.log(names.length)
 
-
+// old way of iterating through arrays
 for (i = 0; i < names.length; i++) {
   console.log(names[i])
 }
-
+// modern way of iterating through arrays
 names.forEach((name) => {
 //   console.log(name)
   const result = name[0].toLowerCase() === 'j';
@@ -58,7 +58,6 @@ names.forEach((name) => {
   }
 
 });
-
 
 
 // FUNCTIONS
