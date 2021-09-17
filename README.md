@@ -1,4 +1,4 @@
-# Demo code for Le Wagon JavaScript Sprint: Explore the basics of JavaScript
+# Demo code for Le Wagon beginner JavaScript workshop
 ___
 ## About
 
