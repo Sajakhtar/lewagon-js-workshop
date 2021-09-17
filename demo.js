@@ -8,6 +8,8 @@
 
 // STRINGS - CONCATENATION & INTERPOLATION
 
+// Try ths following code in https://jsbin.com/?js,console
+
 const firstString = "Hello";
 const secondString = "World";
 
@@ -15,9 +17,11 @@ const fullString = `${firstString} ${secondString}`
 
 console.log(fullString);
 
-
+// ******************************************
 
 // CONDITIONS, LOGICAL OPERATORS, IF-ELSE CONDITIONS
+
+// Try ths following code in https://jsbin.com/?js,console
 
 const word = "Benjamin";
 
@@ -34,9 +38,11 @@ if (word[0] === 'B') {
   console.log('No')
 }
 
-
+// ******************************************
 
 // LOOPS & ITERATIONS WITH ARRAYS
+
+// Try ths following code in https://jsbin.com/?js,console
 
 const names = ['Saj', 'Jack', 'Jon', 'Jane', 'Ben', 'Bob']
 
@@ -59,8 +65,11 @@ names.forEach((name) => {
 
 });
 
+// ******************************************
 
 // FUNCTIONS
+
+// Try ths following code in https://jsbin.com/?js,console
 
 const myName = 'bEnJaMIN';
 
@@ -76,9 +85,13 @@ console.log(myName)
 const myNameCapitalized = capitalize(myName)
 console.log(myNameCapitalized)
 
+// ******************************************
 
 // DOM MANIPULATION & EVENT LISTENERS
-// Go to http://perdu.com/ in Google Chrome or Firefox and open the Console in the Developer tools
+
+// Go to http://perdu.com/ in Google Chrome or Firefox
+// Open the Console in the Developer tools
+// Try the following code in the Console
 
 const h1 = document.querySelector('h1')
 
@@ -95,9 +108,13 @@ h1.addEventListener('click', () => {
   console.log('I clicked the h1 which is a child of the body')
 })
 
-
+// ******************************************
 
 // A PRACTICAL EXAMPLE OF DOM MANIPULATION - IMPLEMENT DARK MODE
+
+// Go to http://perdu.com/ in Google Chrome or Firefox
+// Open the Console in the Developer tools
+// Try the following code in the Console
 
 // Add button
 document.body.insertAdjacentHTML('beforeend', '<button id="dark-mode">Dark Mode</button>');

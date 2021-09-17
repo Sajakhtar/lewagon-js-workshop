@@ -4,7 +4,7 @@ ___
 
 This is the demo code for the 1hour workshop in beginner JavaScript
 
-Workshop is courtesy of [Le Wagon](https://www.lewagon.com/).
+The official workshop name is **_JavaScript Sprint: Explore the basics of JavaScript_** and is courtesy of [Le Wagon](https://www.lewagon.com/).
 
 ___
 ## Outline
@@ -17,7 +17,7 @@ Topics covered during the workshop are
 - Event handling
 
 ___
-## Tools & Ussage
+## Tools & Usage
 
 [JSBin](https://jsbin.com/?js,console) with the JS and Console pannels enabled.
 
