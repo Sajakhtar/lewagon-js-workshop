@@ -15,6 +15,10 @@
 const firstString = "Hello";
 const secondString = "World";
 
+const fullString1 = firstString + secondString;
+
+const fullString2 = firstString + ' ' + secondString;
+
 const fullString = `${firstString} ${secondString}`
 
 console.log(fullString);
@@ -27,17 +31,19 @@ console.log(fullString);
 
 const word = "Benjamin";
 
+const word1 = "Le Wagon";
 
-const result = word[0] === 'b' || word[0] === 'B'
+const result1 = word[0] === 'b' || word[0] === 'B'
+
 const result = word[0].toLowerCase() === 'b'
 
 console.log(result)
 
 
 if (word[0] === 'B') {
-  console.log('Yes')
+  console.log(`${word} begins with 'b'`)
 } else {
-  console.log('No')
+  console.log(`${word} does not begin with 'b'`)
 }
 
 // ******************************************
@@ -54,6 +60,7 @@ console.log(names.length)
 for (i = 0; i < names.length; i++) {
   console.log(names[i])
 }
+
 // modern way of iterating through arrays
 names.forEach((name) => {
 //   console.log(name)
@@ -75,6 +82,9 @@ names.forEach((name) => {
 
 const myName = 'bEnJaMIN';
 
+
+
+// Arrow function
 const capitalize = (word) => {
   const firstChar = word[0];
   const remainingChars = word.substring(1)
@@ -86,6 +96,12 @@ const capitalize = (word) => {
 console.log(myName)
 const myNameCapitalized = capitalize(myName)
 console.log(myNameCapitalized)
+
+
+//  Regular function
+function capitalizeOldWay(word) {
+  return word[0].toUpperCase() + word.substring(1).toLowerCase();
+}
 
 // ******************************************
 
